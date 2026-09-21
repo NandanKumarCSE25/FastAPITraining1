@@ -1,4 +1,4 @@
-#concept: decorator
+#concept: decorator is a python function 
 #decorators are the functions that modify the functionality of another function.
 def my_decorator(func):
     def wrapper():
