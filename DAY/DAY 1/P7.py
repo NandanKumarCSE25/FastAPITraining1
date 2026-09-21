@@ -1,2 +1,4 @@
+#concept : type hint
+
 def greet(name: str)-> str:
     return "hello world"+name
