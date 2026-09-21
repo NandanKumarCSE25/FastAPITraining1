@@ -1,3 +1,6 @@
+#concept : class and object and instance
+
+
 class dog: 
     def bark(self):
         print(" woof!")
