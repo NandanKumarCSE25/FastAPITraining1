@@ -42,3 +42,4 @@ class Item(BaseModel):
 def create_item(item: Item):
         return {"received_item": item, "total_price": item.price * 1.18, "message": "Item created successfully"
         ""}
+
