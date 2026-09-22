@@ -22,3 +22,8 @@ def create_something(item : dict):
 @app.get("/student/{usn}")
 def get_result(usn ):
     return{"usn": usn, "Result": "passed"}
+
+#Path Parameters with type Hint
+@app.get("/candidate/{roll}")
+def get_candidate(roll : int):
+    return{"roll": roll, "type":str(type(roll)), "Result": "passed"}
